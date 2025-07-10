@@ -1,0 +1,139 @@
+body {
+    background-image: url('4521332.webp');  /* Replace with your image filename */
+    background-size: cover;  /* Makes the image cover the entire screen */
+    background-position: center;  /* Centers the image */
+    background-attachment: fixed;  /* Keeps the background fixed while scrolling */
+    font-family: Arial, sans-serif;  /* Optional: improves text readability */
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+   /*background-color: #f4eded;*/
+    padding: 20px;
+}
+
+h1 {
+    color: #ff2a04;
+
+}
+h2{
+    color: #ff2a04;
+
+}
+.container{
+    background: rgba(249, 249, 253, 0);
+    padding: 20px;
+    margin:20px auto;
+    width:50%;
+    border-radius: 8px;
+    box-shadow:0px 0px 0px rgba(19, 3, 241, 0.1) ;
+    border:1px solid #020202;
+}
+label {
+    display:block;
+    margin:10px 0;
+    
+}
+input{
+    width:80px;
+    padding:10px 40px;
+    margin-top:2px;
+    border:1px solid #020202;
+    border-radius:60px;
+    margin:10px ;
+    margin-bottom: 10px;
+    
+}
+
+button {
+    margin: 10px;
+    padding: 10px 30px;
+    background-color: #0073ff;
+    color: white;
+    border: 10px ;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:  #0773f7;
+}
+
+table{
+    width:1320px;
+    margin-top:100px;
+    border-collapse: collapse;
+    
+}
+
+th, td{
+    border:1px solid #000000;
+    padding :10px;
+    
+}
+th{
+    background-color: rgb(30, 30, 218);
+    color:white;
+}
+.addform-container {
+    width: 30%;
+    margin:0 auto;
+    padding:  20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #fdfcfc;
+}
+.addform-group {
+    display: block;
+    align-items: center;
+    margin-bottom: 10px;
+}
+/*.addform-group label {
+    width: 100px;  /* Adjust width as needed 
+    font-weight: bold;
+    text-align: center;
+    margin-right: 10px;
+}*/
+.addform-group input {
+  /*  flex: 10;*/
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    width: 250px;
+    text-align: center;
+}
+.view-container{
+    width:1320px;
+    margin-top:100px;
+    background-color: #fdfcfc;
+}
+/*.ud-container{
+    background-color: #fdfcfc;
+    width:30%;
+   /* padding: 4px 1px;
+   margin: 10px;
+}*/
+.ud-container{
+    width: 30%;
+    margin:0 auto;
+   /* padding:  20px;
+    border: 1px solid #ccc;*/
+    border-radius: 8px;
+    background-color: #fdfcfc;
+
+}
+#PhotoContainer{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:200px;
+}
+/*.updatePhotoPreview{
+    width:200px;
+    height:200px;
+    justify-content: center;
+    align-items:center;
+    /* border:2px solid#ccc
+}*/
+
+

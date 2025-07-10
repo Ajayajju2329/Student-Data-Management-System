@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Student</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Add Student Details </h2>
+    <div class="addform-container">
+    <form id="addStudentForm" onsubmit="addStudent(event)">
+<div class="addform-group">
+        <lable>Student ID :</lable>
+        <input type="text"   id="studentId"   placeholder="Student ID" required><br>
+</div>
+<div class="addform-group">
+    <lable>Name :</lable>
+    <input type="text"   id="studentName" placeholder="Name" required><br>
+</div>
+        
+<div class="addform-group">
+        <lable>Age:</lable>
+        <input type="number" id="studentAge"  placeholder="Age" required><br></div>
+        <div class="addform-group">
+        <lable>Department:</lable>
+        <input type="text" id="studentDept" placeholder="Department" required><br></div>
+        <div class="addform-group">
+        <lable>GPA:</lable>
+        <input type="number" id="studentGPA" placeholder="GPA" step="0.01" min="0" max="10"required><br></div>
+        <div class="addform-group">
+        <lable>Contact:</lable>
+        <input type="text" id="studentContact" placeholder="Contact" required><br></div>
+        <div class="addform-group">
+        <lable>Photo:</lable>
+        <input type="file" id="studentPhoto" accept="image/*" placeholder="Photo" required><br></div>
+
+        <button type="submit">Add Student</button>
+    </form>
+
+    <a href="index.html"><button>Back to Home</button></a>
+</div>
+    <script src="app.js"></script>
+</body>
+
+</html>
+
+

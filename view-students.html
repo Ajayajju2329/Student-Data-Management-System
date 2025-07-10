@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Students</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Students Data</h2>
+    <div class="view-container">
+    <table id="studentsTable" border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Department</th>
+                <th>GPA</th>
+                <th>Contact</th>
+                <th>Photo</th>
+               <td><img src = "" id =" studentPhotoPreview" width="50" height="50"></td>
+            </tr>
+        </thead>
+        <tbody id="studentsTableBody"></tbody>
+    </table></div>
+    <button onclick="loadStudents()">Load Students</button>
+    <a href="index.html"><button>Back to Home</button></a>
+    <script src="app.js" ></script>
+</body>
+</html>

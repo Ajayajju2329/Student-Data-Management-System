@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update/Delete Student</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Update/Delete Student</h2>
+
+    <!-- Search Bar -->
+    <input type="text" id="ID" placeholder="Enter Student ID">
+    <button onclick="searchStudent()">Search Student</button>
+    <div class="ud-container">
+    <!-- Update Form -->
+    <form id="updateForm" style="display:none;">
+        <label>Student ID:</label>
+        <input type="text" id="updateID" readonly><br>
+
+        <label>Name:</label>
+        <input type="text"   id="updateName"><br>
+
+        <label>Age:</label>
+        <input type="number" id="updateAge"><br>
+
+        <label>Department:</label>
+        <input type="text"   id="updateDepartment"><br>
+
+        <label>GPA:</label>
+        <input type="number" id="updateGPA"><br>
+
+        <label>Contact:</label>
+        <input type="text"   id="updateContact"><br><br>
+
+        <label>Photo:</label>
+        <input type="file"   id="updatePhoto" accept="image/*"><br><br>
+     <img id="updatePhotoPreview" style="width :200px;height:200px;">
+    </form></div>
+        <button type="button" onclick="updateStudent()">Update Student</button>
+        <button type="button" onclick="deleteStudent()">Delete Student</button>
+    
+    <a href="index.html"><button>Back to Home</button></a>
+    <script src="app.js"></script>
+</body>
+</html>
